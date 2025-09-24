@@ -1,3 +1,25 @@
-/opt/anaconda3/
-.DS_Store
-*/.env
+# Ignore sensitive files
+# For storing API keys and credentials
+.env
+.env.*
+
+# Ignore byte-compiled Python files
+*.py[cod]
+__pycache__/
+
+# Ignore temporary files created by the operating system
+.DS_Store # macOS
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore user-specific IDE settings (e.g., VS Code)
+.vscode/
+
+# Ignore project-specific Conda environment directory if you created one locally
+# Conda environments are usually kept outside the project folder.
+# If you created one in a sub-folder (e.g., named 'env'), ignore it explicitly.
+env/
