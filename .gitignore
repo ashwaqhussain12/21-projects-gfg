@@ -23,3 +23,4 @@ __pycache__/
 # Conda environments are usually kept outside the project folder.
 # If you created one in a sub-folder (e.g., named 'env'), ignore it explicitly.
 env/
+* /opt/anaconda3
